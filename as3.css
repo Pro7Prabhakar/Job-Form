@@ -1,0 +1,136 @@
+*
+{
+    background-color: #c3d5cc;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+.title_size
+{
+    font-size: large;
+    background-color: white;
+}
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.form_box
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.1), 0px 4px 8px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    display: block;
+    background-color: white;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 15px;
+}
+input
+{
+    border-radius: 5px;
+    background-color: white;
+    padding:6px 10px;
+    border: 1px solid #ccc;
+}
+label
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+form{
+    background-color: white;
+}
+.inside
+{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    align-content: space-between;
+    background-color: white;
+}
+.inside_input
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+}
+select
+{
+    border-radius: 5px;
+    background-color: white;
+    padding: 6px 10px;    
+    border: 1px solid #ccc;
+}
+option
+{
+    background-color: white;
+}
+select:focus
+{
+    outline-color: blue;
+    caret-color: #1b74e4;
+}
+input:focus{
+    outline-color: blue;
+    caret-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+textarea{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+textarea:focus{
+    outline-color: blue;
+    caret-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+.addr{
+    grid-column: 1 / span 2;
+}
+.outside{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 1 / span 2;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    color: rgba(255,255,255,.9);
+    border-radius: 6px;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    transition: all .5s linear !important;
+}
+type[file]:focus
+{
+    outline-color: blue;
+    caret-color: #1b74e4;
+}
+.but:hover{
+    transform: scale(1.01);
+    transition: font-size 5s 2s ;
+    background-color: green;
+}

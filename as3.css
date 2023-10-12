@@ -15,7 +15,7 @@ div{
     background-color: rgba(252,252,252,0);
 }
 body{
-    background: url(jobs3.jpg);
+    background: url(/jobs3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-size: 100% 100%;
